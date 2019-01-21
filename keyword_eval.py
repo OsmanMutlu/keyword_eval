@@ -1,6 +1,6 @@
 import pandas as pd
 import re
-from sklearn.metrics import classification_report, confusion_matrix
+from sklearn.metrics import classification_report
 import argparse
 
 global reg
@@ -21,7 +21,6 @@ def print_stuff(doc):
 
     print("Prediction Report\n")
     print(classification_report(doc.label, doc.keyword_pred))
-
 
 def main():
     parser = argparse.ArgumentParser(description="This script takes a regex list and checks the match percent given input docs", formatter_class=argparse.ArgumentDefaultsHelpFormatter)

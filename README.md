@@ -1,0 +1,2 @@
+This script evaluates the performance of some keyword list that people used to find suitable protest news for labelling.\n
+Takes a text file containing regex patterns with -r and some labelled excel documents.
